@@ -308,7 +308,7 @@ public class Game {
 	}
 	
 	public void readfromtextFile() {
-		File f = new File("CaveDesc.txt");	// Connects f to CaveDesc.txt
+		File f = new File("GameDescription.txt");	// Connects f to GameDescription.txt
 		try {
 			Scanner s = new Scanner(f);
 			try {
