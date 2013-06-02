@@ -1,0 +1,145 @@
+Locations:
+Cave
+Forest
+Tree House
+Amon Amarth
+end
+
+Location:
+Cave
+
+Long:
+You are in a dark dingy cave. There is a large machine, a computer cluster, and the noise of the whirring fans fills the air. There is a desk in the corner. A person is sitting on it, presumably working, and not watching anime porn. Daylight creeps through the north...
+
+Short:
+A dark cave.
+
+
+Items:
+Magic Rock 
+"It's a shiny rock."
+Chisel 
+"This is a strange tool to be found in a cave!"
+Keys 
+"About a dozen keys. I wonder what this unlocks..."
+end
+
+Container:
+Desk Drawer-Keys, Chisel
+end
+
+Character:
+Name: Dustan
+Description: A stout, blonde man. He appears angry about something. 
+Dialogue: "Oh my god... My assignment is due in an hour and it keeps crashing!"
+Dialogue: "I don't understand... Would you like to take a look at it?" (y/n)
+Dialogue: "for(int i = 0; i > 100; i--);"
+Solution: i > -100
+Correct: "Wow! It worked! For your troubles, here's a gift!"
+Incorrect: "Nope... still broken. Wanna try again?" (y/n)
+Item: Magic Rock
+end
+
+Exit:
+Dir 01
+ToL Forest
+Lok Magic Rock
+end
+
+Location:
+Forest
+Long:
+You are now in a Forest. It is very dense. Up in the trees, you see a giant tree house. Nearby, there is a yak.
+
+Short:
+A forest.
+
+Name:
+Forest
+
+Items:
+Ladder
+"It's a long ladder. Pretty useful to climb stuff... probably not Mt. Everest though..."
+end
+
+Character:
+Name: Yak
+Description: Hey look, it's an extremely hairy yak!
+Dialogue: "YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK" 
+Dialogue: "EEUUUUGGHHHH"
+Item: Ladder
+end
+
+Exit:
+Dir 05
+ToL Tree House
+Lok Ladder
+end
+
+Location:
+Tree House
+
+Long:
+It's a giant mansion up here! You are standing at the entrance of a rather large living room. There is only one piece of furniture though, a cupboard, right at the other end of the room. Only a dark silhouette is visible of a taaaaaaallllll being. It comes closer and we see the features: a mask, a red beard sneaking out form underneath, grunting...
+
+Short:
+You are in the living room of a large tree house.
+
+
+Items:
+The One Ring
+"To Rule Them ALL"
+Light Saber
+"Wow, this is the cooolest letter opener ever!"
+end
+
+Container:
+Cupboard-The One Ring
+end
+
+Character:
+Name: The Evil Mister Wizarderer Sith Lord Sarumon- the SauroVader
+Description: Only a dark silhouette is visible of a taaaaaaallllll being. It comes closer and we see the features: a mask, a red beard sneaking out form underneath, grunting...
+Dialogue: "Rooooooooooooooaaaaaaaaaaaaaaaaaaar! So we finally meet, Alot!" 
+Dialogue: "You look surprised. You didn't realize you were an Alot, did you?"
+Dialogue: "Muhahahahaha. This is going to way too easy. I hate you, Alot." 
+Dialogue: "Prepare to feel my wrat, Alot of it. Hahaha, get it?"
+Dialogue: *Trips and falls* It looks like The Evil Mister Wizarderer Sith Lord Sarumon, the SauroVader didn't see that banana peel over there. Oh, looks like he dropped something...
+Dialogue: IT'S A MOTHERFLIPPIN' LIGHT SABER! WHAT ARE YOU LOOKING AT? TAKE IT! (wait to get out of dialogue mode first...)
+Item: Light Saber
+end
+
+Exit:
+Dir 4
+ToL Amon Amarth
+Lok Keys
+end
+
+Location:
+Amon Amarth
+
+Long:
+AKA MOUNT DOOM! If you didn't realize this already, you are standing over a god-damn VOLCANO! AND IT'S ABOUT TO ERUPT! We are all going to die!
+
+Short:
+You are standing over a volcano. No biggie.
+
+Items:
+iPhone7
+"Now longer, wider AND thicker! Not only is it a phone, but you can kill people you don't like with it!"
+end
+
+Character:
+Name: Dr. Roberts
+Description: Hey look, it's Dr. Roberts!
+Dialogue: "Well in Smalltalk land..." 
+Dialogue: "What was I saying? Sorry I got distracted by all that yak hair you are covered with. What have you been DOING?"
+Dialogue: "You want an iPhone7?"
+Item: iPhone7
+end
+
+Game Over:
+"You have finished the game. But if you have made it this far, you obviously helped Dustan make his code work. What you didn't realize was that he was working on building a death-ray fusion reactor thingamajig that will shortly blow up the entire planet. YOU CAN'T JUST GO AROUND FIXING EVERYONE'S CODE, ALOT. Not to mention you probably violated the honor code."
+
+Start Location:
+Cave
